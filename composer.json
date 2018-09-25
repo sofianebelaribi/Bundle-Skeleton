@@ -1,5 +1,5 @@
 {
-	"name": "Name/Name",
+	"name": "name/name",
     "minimum-stability": "dev",
     "type": "symfony-bundle",
   "autoload": {
