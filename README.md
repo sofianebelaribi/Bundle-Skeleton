@@ -1,4 +1,4 @@
-﻿#Your Bundle Skeleton
+﻿# Your Bundle Skeleton
 
 This is a minimal and empty project which can be used in order to build your bundle with Symfony 4.* !
 
@@ -7,7 +7,7 @@ This is a minimal and empty project which can be used in order to build your bun
 - Change namespaces when converting your projecting into a bundle !
 
 
-#####This is how your root should look like :
+##### This is how your root should look like :
 
     <your-bundle>/
     ├─ NameNameBundle.php
@@ -24,7 +24,7 @@ This is a minimal and empty project which can be used in order to build your bun
     └─ Tests/
 
 
-###**composer.json of the bundle**
+### **composer.json of the bundle**
 
     {
         "name": "name/name",
@@ -41,7 +41,7 @@ This is a minimal and empty project which can be used in order to build your bun
       }
     }
 
-###**composer.json of the project**
+### **composer.json of the project**
 
         "autoload": {
             "psr-4": {
@@ -56,7 +56,7 @@ This is a minimal and empty project which can be used in order to build your bun
             }
     
 
-###**bundle controller**
+### **bundle controller**
 
     <?php
     
@@ -68,12 +68,12 @@ This is a minimal and empty project which can be used in order to build your bun
     
     class NameName extends Bundle{}
 
-###**Bundles.php**
+### **Bundles.php**
 
     Name\Bundle\Name\NameName::class => ['all' => true],
 
 
-###**Routes.yaml** 
+### **Routes.yaml** 
 *in order to link annotations of the bundle controllers to the project*
 
 - first add this to your controllers (where you have written all the routes) :
@@ -92,7 +92,7 @@ This is a minimal and empty project which can be used in order to build your bun
 
 
 
-###**Console** 
+### **Console** 
 *in order to add all Bundle resources in the public directory of the project*
 
     bin/console assets:install
@@ -108,7 +108,7 @@ This is a minimal and empty project which can be used in order to build your bun
     composer dump-autoload
 
 
-###**Routing**
+### **Routing**
 
 If your index.html.twig is in *Your_Bundle/Resources/views*
 
@@ -116,7 +116,7 @@ If your index.html.twig is in *Your_Bundle/Resources/views*
 
 
 
-###**Tests with Kahlan**
+### **Tests with Kahlan**
 
 You should first look at [Kahlan's documentation](https://kahlan.github.io/docs/) 
 
