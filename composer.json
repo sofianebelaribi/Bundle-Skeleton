@@ -1,0 +1,15 @@
+{
+	"name": "Name/Name",
+    "minimum-stability": "dev",
+    "type": "symfony-bundle",
+  "autoload": {
+    "psr-4": {
+      "Name\\Bundle\\Name\\":"vendor/Name/Name"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Name\\Bundle\\Name\\": "vendor/Name/Name"
+    }
+  }
+}
